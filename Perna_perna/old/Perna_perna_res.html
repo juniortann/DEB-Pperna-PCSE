@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+  <TITLE>Perna_perna</TITLE>
+  <style>
+    div.prd {
+      width: 50%;
+      float: left;
+    }
+
+    div.par {
+      width: 50%;
+      float: right;
+    }
+
+    p.clear {
+      clear: both;
+    }
+
+    .head {
+      background-color: #FFE7C6
+    }
+
+    .psd {
+      color: blue
+    }
+
+    #prd {
+      border-style: solid hidden solid hidden;
+    }
+
+    #par {
+      border-style: solid hidden solid hidden;
+    }
+
+    tr:nth-child(even){background-color: #f2f2f2}
+  </style>
+</HEAD>
+
+<BODY>
+
+  <div class="prd">
+  <h1>Perna perna</h1>
+  </div>
+
+  <div class="par">
+  <h4>COMPLETE = 2.6; MRE =    0.374; SMSE =    0.360 </h4>
+  </div>
+
+  <p class="clear"></p>
+
+  <div class="prd">
+  <h2>Data & predictions</h2>
+  <TABLE id="prd">
+    <TR  class="head"><TH>data</TH> <TH>prd</TH> <TH>RE</TH>  <TH>symbol</TH> <TH>units</TH> <TH>description</TH> </TR>
+    <TR><TD>  2</TD> <TD>0.01477</TD> <TD>0.9926</TD> <TD>ab</TD> <TD>d</TD> <TD>age at birth</TD></TR>
+    <TR><TD>100</TD> <TD>81.4</TD> <TD>0.186</TD> <TD>tp</TD> <TD>d</TD> <TD>time since birth at puberty</TD></TR>
+    <TR><TD>3285</TD> <TD>3323</TD> <TD>0.01148</TD> <TD>am</TD> <TD>d</TD> <TD>life span</TD></TR>
+    <TR><TD>0.008822</TD> <TD>0.009098</TD> <TD>0.03127</TD> <TD>Lb</TD> <TD>cm</TD> <TD>shell length at birth</TD></TR>
+    <TR><TD>2.9</TD> <TD>3.642</TD> <TD>0.2558</TD> <TD>Lp</TD> <TD>cm</TD> <TD>shell length at puberty</TD></TR>
+    <TR><TD> 12</TD> <TD>9.204</TD> <TD>0.233</TD> <TD>Li</TD> <TD>cm</TD> <TD>ultimate shell length</TD></TR>
+    <TR><TD>14.64</TD> <TD>13.22</TD> <TD>0.09688</TD> <TD>Li_br</TD> <TD>cm</TD> <TD>ultimate shell length</TD></TR>
+    <TR><TD>2.69e-08</TD> <TD>2.679e-08</TD> <TD>0.004254</TD> <TD>Wwb</TD> <TD>g</TD> <TD>wet weight at birth</TD></TR>
+    <TR><TD colspan="2">see figure</TD> <TD>3.088</TD> <TD>tL</TD> <TD colspan="2">time since settlement, <font color="blue"><i>vs.</i></font> shell length</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.4448</TD> <TD>tL_SBr</TD> <TD colspan="2">time since settlement, <font color="blue"><i>vs.</i></font> shell length</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.1677</TD> <TD>tL_ItaBr</TD> <TD colspan="2">time since settlement, <font color="blue"><i>vs.</i></font> shell length</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.3168</TD> <TD>tW_ItaBr</TD> <TD colspan="2">time since settlement, <font color="blue"><i>vs.</i></font> Wet Weight</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>1.174</TD> <TD>tL_Uba</TD> <TD colspan="2">days, <font color="blue"><i>vs.</i></font> shell length</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.9521</TD> <TD>Lt_Flor</TD> <TD colspan="2">time, <font color="blue"><i>vs.</i></font> shell length</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>138.6</TD> <TD>LW</TD> <TD colspan="2">shell length, <font color="blue"><i>vs.</i></font> soma dry weight</TD>
+    <TR class="psd"><TD>0.02</TD> <TD>1.435</TD> <TD>70.74</TD> <TD>psd.v</TD> <TD>cm/d</TD> <TD>energy conductance</TD></TR>
+    <TR class="psd"><TD>0.8</TD> <TD>0.9</TD> <TD>0.125</TD> <TD>psd.kap</TD> <TD>-</TD> <TD>allocation fraction to soma</TD></TR>
+    <TR class="psd"><TD>0.95</TD> <TD>0.95</TD> <TD>  0</TD> <TD>psd.kap_R</TD> <TD>-</TD> <TD>reproduction efficiency</TD></TR>
+    <TR class="psd"><TD> 18</TD> <TD>30.95</TD> <TD>0.7195</TD> <TD>psd.p_M</TD> <TD>J/d.cm^3</TD> <TD>vol-spec som maint</TD></TR>
+    <TR class="psd"><TD>0.002</TD> <TD>0.002</TD> <TD>  0</TD> <TD>psd.k_J</TD> <TD>1/d</TD> <TD>maturity maint rate coefficient</TD></TR>
+    <TR class="psd"><TD>0.8</TD> <TD>0.802</TD> <TD>0.00246</TD> <TD>psd.kap_G</TD> <TD>-</TD> <TD>growth efficiency</TD></TR>
+  </TABLE>
+  </div>
+
+  <div class="par">
+  <h2>std parameters at 20.0&deg;C</h2>
+  <TABLE id="par">
+    <TR class="head"><TH>symbol</TH> <TH>units</TH> <TH>value</TH>  <TH>free</TH> <TH>description</TH> </TR>
+    <TR><TD>T_ref</TD> <TD>K</TD> <TD>293.1</TD> <TD>0</TD> <TD>Reference temperature</TD></TR>
+    <TR><TD>T_A</TD> <TD>K</TD> <TD>8000</TD> <TD>0</TD> <TD>Arrhenius temperature</TD></TR>
+    <TR><TD>z</TD> <TD>-</TD> <TD>2.993</TD> <TD>1</TD> <TD>zoom factor</TD></TR>
+    <TR><TD>F_m</TD> <TD>l/d.cm^2</TD> <TD>6.5</TD> <TD>0</TD> <TD>{F_m}, max spec searching rate</TD></TR>
+    <TR><TD>kap_X</TD> <TD>-</TD> <TD>0.8</TD> <TD>0</TD> <TD>digestion efficiency of food to reserve</TD></TR>
+    <TR><TD>kap_P</TD> <TD>-</TD> <TD>0.1</TD> <TD>0</TD> <TD>faecation efficiency of food to faeces</TD></TR>
+    <TR><TD>v</TD> <TD>cm/d</TD> <TD>1.435</TD> <TD>0</TD> <TD>energy conductance</TD></TR>
+    <TR><TD>kap</TD> <TD>-</TD> <TD>0.9</TD> <TD>0</TD> <TD>allocation fraction to soma</TD></TR>
+    <TR><TD>kap_R</TD> <TD>-</TD> <TD>0.95</TD> <TD>0</TD> <TD>reproduction efficiency</TD></TR>
+    <TR><TD>p_M</TD> <TD>J/d.cm^3</TD> <TD>30.95</TD> <TD>1</TD> <TD>[p_M], vol-spec somatic maint</TD></TR>
+    <TR><TD>p_T</TD> <TD>J/d.cm^2</TD> <TD>  0</TD> <TD>0</TD> <TD>{p_T}, surf-spec somatic maint</TD></TR>
+    <TR><TD>k_J</TD> <TD>1/d</TD> <TD>0.002</TD> <TD>0</TD> <TD>maturity maint rate coefficient</TD></TR>
+    <TR><TD>E_G</TD> <TD>J/cm^3</TD> <TD>2348</TD> <TD>0</TD> <TD>[E_G], spec cost for structure</TD></TR>
+    <TR><TD>E_Hb</TD> <TD>J</TD> <TD>6.754e-06</TD> <TD>0</TD> <TD>maturity at birth</TD></TR>
+    <TR><TD>E_Hp</TD> <TD>J</TD> <TD>590.2</TD> <TD>0</TD> <TD>maturity at puberty</TD></TR>
+    <TR><TD>h_a</TD> <TD>1/d^2</TD> <TD>2.321e-10</TD> <TD>0</TD> <TD>Weibull aging acceleration</TD></TR>
+    <TR><TD>s_G</TD> <TD>-</TD> <TD>0.0001</TD> <TD>0</TD> <TD>Gompertz stress coefficient</TD></TR>
+    <TR><TD>T_AH</TD> <TD>K</TD> <TD>2.506e+05</TD> <TD>0</TD> <TD>Arrh. temp for upper boundary</TD></TR>
+    <TR><TD>T_AL</TD> <TD>K</TD> <TD>5.54e+04</TD> <TD>0</TD> <TD>Arrh. temp for lower boundary</TD></TR>
+    <TR><TD>T_A_Br</TD> <TD>K</TD> <TD>8000</TD> <TD>0</TD> <TD>Arrhenius temperature</TD></TR>
+    <TR><TD>T_H</TD> <TD>K</TD> <TD>309</TD> <TD>0</TD> <TD>Upper temp boundary</TD></TR>
+    <TR><TD>T_L</TD> <TD>K</TD> <TD>273</TD> <TD>0</TD> <TD>Lower temp boundary</TD></TR>
+    <TR><TD>X_K</TD> <TD>-</TD> <TD>2.24</TD> <TD>1</TD> <TD>half-saturation coeficient for chl-a in brazilian population</TD></TR>
+    <TR><TD>Y_K</TD> <TD>-</TD> <TD>103.5</TD> <TD>1</TD> <TD>half-saturation coeficient for suspended matter in brazilian population</TD></TR>
+    <TR><TD>c_chl</TD> <TD>-</TD> <TD> 52</TD> <TD>0</TD> <TD>Carbon / Chlorophyll ratio</TD></TR>
+    <TR><TD>del_M</TD> <TD>-</TD> <TD>0.3252</TD> <TD>0</TD> <TD>shape coefficient after metam</TD></TR>
+    <TR><TD>del_Mb</TD> <TD>-</TD> <TD>5.074e-25</TD> <TD>0</TD> <TD>shape coefficient at birth</TD></TR>
+    <TR><TD>f</TD> <TD>-</TD> <TD>  1</TD> <TD>0</TD> <TD>scaled functional response for fsubtidal data</TD></TR>
+    <TR><TD>z_Br</TD> <TD>-</TD> <TD>10.2</TD> <TD>1</TD> <TD>zoom factor for brazilian population</TD></TR>
+  </TABLE>
+  </div>
+
+</BODY>
+</HTML>

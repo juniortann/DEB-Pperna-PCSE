@@ -1,0 +1,12 @@
+	Santos	Penha	Ubatuba	Florianopolis	Overall
+X_K	4.5	4.5	4.5	4.5		2.5
+
+Y_K 	215.7	397.8	123.8	200.8		107.8
+
+MRE	0.244	0.217	0.275	0.296		0.353
+
+SMRE	0.354	0.335	0.370	0.370		0.357
+
+
+Used Armação de Itapocoroy data to calibrate model
+
