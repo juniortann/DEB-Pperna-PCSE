@@ -1,6 +1,6 @@
 # Mussel culture assessment in the South of Brazil
 
-Data and code used for the article ["Assessing bivalve growth using bio-energetic models"](https://authors.elsevier.com/a/1fkoN15DJ-5f1a). Mussel growth assessment throughout the brazilian Southeastern coast using the Dynamic Energy Budget theory. 
+Data and code used for the article ["Assessing bivalve growth using bio-energetic models"](https://authors.elsevier.com/a/1fkoN15DJ-5f1a). Mussel growth assessment throughout the brazilian Southeast coast using the Dynamic Energy Budget theory. 
 
 ![Graphical Abstract](GraphicalAbstract.png "Graphical Abstract")
 
